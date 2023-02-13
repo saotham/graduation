@@ -1,0 +1,454 @@
+/* css main */
+*{
+    background-color: #ecd1d0;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Raleway', Tahoma, sans-serif;
+    width: 100%;
+    min-height: 100%;
+    scroll-behavior: smooth;
+  }
+  @keyframes transfer-left-content {
+    from{
+    }
+    to{
+        transform: rotateX('angle');
+    }
+  }
+  :root{
+    --nav:50px;
+    --clo:#f6bbb8;
+    --cloplus: #ff9494;
+  }
+  .col-half{
+    width: 50%;
+  }
+.col-half .photo-flexiable{
+    float: right;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    margin: 0px 40px;
+}
+a:hover{
+    color: white;
+}
+.photo-decor{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    height: 100px;
+}
+/* begin css cover-page */
+.navbar-cover-page-1{
+    display: block;
+    width: 100%;
+    background-color: var(--cloplus);
+    height: calc(0.7*var(--nav));
+}
+#nav-logo{
+    background-color: var(--cloplus);
+    height: calc(2*var(--nav));
+}
+.shape-nav-icon{
+    float: right;
+}
+.navbar-blank {
+    display: block;
+    height: calc(2*var(--nav));
+    width: auto;
+    background-color: var(--cloplus);
+    position: static;
+    
+}
+/* nav .navbar-blank{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: var(--nav);
+    background-color:var(--cloplus);
+    background: rgba(0,0,0,0.4);
+    padding: 0 100px ;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12),
+    /* 0 2px 2px rgba(0,0,0,0.12),
+    0 4px 4px rgba(0,0,0,0.12),
+    0 8px 8px rgba(0,0,0,0.12), */
+#navbar-blank{
+    display: block;
+    min-width: calc(100%/3);
+}
+.body-cover .col-half-1{
+    columns: auto;
+}
+.body-cover{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+.title-cover-1, .title-cover-2,.title-cover-3 {
+    color: #322ca7;
+    padding-right: 8%;
+
+}
+.ti-hand-point-down{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    font-size: 30px;
+}
+
+.col-p{
+    display: flex;
+    justify-content: center;
+    float: right;
+
+}
+.tmu-symbolize{
+    width: 100%;
+    opacity: 100%;
+    display: none;
+
+}
+.ti-email{
+    margin-bottom: -10px;
+}
+.title-cover-1{
+    font-size: var(--nav);
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.straight-line{
+    display: inline-block;
+    width: 50%;
+}
+.under-straight-line{
+    width: calc(5*var(--nav)) ;
+    border-width: 2px;
+    float: left;
+    display: block;
+
+}
+.title-cover-2{
+    font-size: calc(0.3*var(--nav));
+    display: block;
+    
+}
+.title-cover .title-cover-3{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: calc(0.6*var(--nav));
+}
+.img-content{
+    display: block;
+    float: right;
+    width: 20%;
+}
+.photo-add{
+    padding-top: calc(var(--nav));
+    
+}
+.photo-right{
+    display: flex;
+    float: right;
+    justify-content: space-around;
+    justify-items:center;
+    margin-top: calc(0.5*var(--nav));
+    background-color: #ff9494;
+}
+.nav-photo{
+    width: var(--nav);
+    margin: 0px 30px;
+    background-color: #ff9494;
+}
+.photo-footer{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    width: 100%;
+}
+.photo-icon{
+    display: inline-block;
+    width: 5%;
+}
+.next-html1{
+    font-size: 30px;
+}
+/* end css cover-page */
+/* begin css letter */
+.navigation-page2{
+    display: block;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: var(--nav);
+    background-color:var(--cloplus);
+    background: rgba(0,0,0,0.4);
+    padding: 0 100px ;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12);
+    /* border: 2px solid #ff9494; */
+}
+.nav-directory{
+    border: 5px ridge #ff9494;
+    font-size: 20px;
+}
+.infor-me{
+    padding-top: calc(2*var(--nav));
+}
+nav .navigation-menu li{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.colums{
+    display: flex;
+    background-color: var(--cloplus);
+    width: 40%;
+    justify-content: center;
+    height: calc(0.8*var(--nav)); 
+    text-align: center; 
+    box-shadow: #ecd1d0;
+    border:3px dashed #fff;
+    font-size: calc(3*var(--nav)/5);
+    color: #fff;
+    
+}
+.transfer-left-title{
+    border-radius: 0px 25px 25px 0px;
+    
+}
+.transfer-right-title{
+    border-radius: 25px 0px 0px 25px;
+    display: block;
+    float: right;
+}
+.time{
+    display: inline-block;
+    width: 100%;
+}
+.home, .time, .place, .thanks-end{
+    padding-top: calc(2*var(--nav));
+    animation: transfer-left-content 3s infinite;
+}
+.transfer-right-content, .transfer-left-content{
+height: calc(4.3*var(--nav));
+width: 90%;
+display: flex;
+flex-direction: column;
+font-size: larger;
+color: #242071;
+}
+.transfer-right-content{
+    float: right;
+    padding-right: 8%;
+}
+.transfer-left-content{
+    float:left;
+    padding-left: 8%;
+}
+.content-infor{
+    text-align: right;
+}
+.background-icon{
+    background-color: var(--cloplus);
+}
+.photo-land{
+    padding:10px 10px;
+    width: 30%;
+}
+.hope{
+    display: inline;
+    text-align: center;
+    font-size: 13px;
+}
+.col-thir{
+    width: calc(100/3);
+    float: none;
+    justify-items: center;
+}
+.bor1, .bor2, .bor3{
+    border-top: 2px solid #fff;
+}
+.bor1, .bor4{
+    border-left: 2px solid #fff ;
+}
+.bor3, .bor6{
+    border-right: 2px solid #fff;
+}
+.bor4, .bor5, .bor6{
+    border-bottom: 2px solid #fff;
+}
+.thanks-end{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Rouge Script', sans-serif;
+}
+.photo-tmu-uni{
+   padding-left: 8.9%;
+}
+.photo-tmu{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.slogan-tmu{
+    height: 100px;
+}
+.leaves{
+    padding-bottom: 50px;
+    margin-bottom: 60px;
+}
+/* end cssletter */
+/* begin css last-page */
+.navigation-page2v .navigation-menu{
+    width: 100%;
+}
+li{
+    display: inline-flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 20px 50px;
+
+}
+.thanks-title, .title-message , .box-message, .submit-message{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.thanks-title{
+    min-height: calc(1*var(--nav));
+    font-family: 'Dancing Scrip';
+    font-size: calc(var(--nav));
+    padding-top: 30px;
+    color:#322ca7;
+}
+.title-message{
+    min-height: 50px;
+    font-size: calc(0.404*var(--nav));
+}
+.box-message{
+    display: flex;
+    justify-content: space-around;
+    /* word-wrap:break-word; */
+}
+.box-message .input-message{
+ height: calc(1*var(--nav));
+ width: calc(8*var(--nav));
+ font-size: 16px;
+ 
+ /* word-wrap:break-word; */
+}
+box-message{
+    word-wrap:break-word;
+}
+.ti-hand-point-down{
+    align-items: center;
+}
+.type-form{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    font-size: 100px;
+}
+.ti-comments-smiley{
+    width: 100px;
+}
+.submit-message{
+ height: calc(0.7*var(--nav));
+ min-width: 100px;
+ border-radius: 25%;
+ /* width: calc(2*var(--nav)); */
+}
+.submit-message .submit-message:hover{
+    background-color:var(--cloplus);
+    color: azure;
+    cursor: pointer;
+    font-size: 17px;
+    opacity: 79%;
+}
+.directional-button{
+    display: flex;
+    padding: 40px 0px;
+    font-size: 20px;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+}
+/* end css last-page */
+/* fix mobile */
+@media (max-width: 740px) {
+  .photo-right{
+    display: none;
+  }  
+  .photo-add{
+   display: none;
+  }
+  .colum-mobile{
+    padding-left: 9%;
+  }
+  .straight-line{
+    display: block;
+    padding-left: 20px;
+    padding-bottom: 50px;
+  }
+
+  .title-cover-1{
+    font-size: 40px;
+    height: 30px;
+  
+  }
+  .navigation-page2{
+    display: none;
+  }
+  .nav-directory li{
+    width: 1px;
+    font-size: 14px;
+  }
+  .navigation-menu ul{
+    width: 100%;
+  }
+  .back-page-html1, .btn-whatsapp, .back-page-1{
+    padding:0px 20px;
+    margin: 0px 0px;
+  }
+  .directional-button{
+    justify-items: center;
+    justify-content: center;
+  }
+  .btn-whatsapp{
+    display: flex;
+    justify-items: center;
+    justify-content: center; 
+    align-items: center;
+  }
+  .next-html1{
+    font-size: 20px;
+  }
+  .tmu-symbolize, .name, .title-cover-3 {
+    display: block;
+    padding-right:9%;
+   
+  }
+  .tmu-symbolize{
+    padding-top: 40px;
+  }
+  .ti-angle-double-down{
+    display: none;
+  }
+}
